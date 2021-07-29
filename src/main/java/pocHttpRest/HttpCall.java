@@ -9,7 +9,7 @@ public class HttpCall {
     	
     	
     	try {
-		    String postURL="http://sic-cetelem-homolog.herokuapp.com/send-message";
+		    String postURL="http://www.example.com.br/send-message";
 		    PostMethod postMethod = null;
 		    postMethod = new PostMethod(postURL) ;
 		    postMethod.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8") ;
